@@ -1,0 +1,300 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 5195px;
+  height: 4697px;
+  margin: 0 auto;
+  background: #d4fffe;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 5195px;
+  height: 416px;
+  margin: 0 0 0 0;
+  background: #64d9d6;
+}
+.logo-removebg-preview {
+  position: absolute;
+  width: 393px;
+  height: 381px;
+  top: 18px;
+  left: 30px;
+  background: url(./assets/images/7775e165a1156483b80c94e7df75c4a6c72ff64a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.ellipse {
+  position: absolute;
+  width: 468px;
+  height: 244px;
+  top: 90px;
+  left: 4475px;
+  background: url(./assets/images/a26e5f77-c056-4c87-9151-709fcf541ab1.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(40px);
+  z-index: 17;
+}
+.contact-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 197px;
+  top: 137px;
+  left: 3040px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 16;
+}
+.collection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 197px;
+  top: 137px;
+  left: 635px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.our-story {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 197px;
+  top: 137px;
+  left: 1798px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 14;
+}
+.log-in {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 197px;
+  top: 137px;
+  left: 4481px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.rectangle-1 {
+  position: relative;
+  width: 3421px;
+  height: 2427px;
+  margin: 813px 0 0 887px;
+  font-size: 0px;
+  background: #bfebf9;
+  z-index: 1;
+  overflow: visible auto;
+  border-radius: 262px;
+}
+.log-in-2 {
+  display: block;
+  position: relative;
+  height: 155px;
+  margin: 135px 0 0 1497px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-3 {
+  position: relative;
+  width: 3205px;
+  height: 292px;
+  margin: 164px 0 0 108px;
+  background: #ffffff;
+  z-index: 5;
+  border-radius: 30px;
+}
+.your-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 155px;
+  top: 69px;
+  left: 42px;
+  color: #d4d0d0;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.rectangle-4 {
+  position: relative;
+  width: 3205px;
+  height: 292px;
+  margin: 164px 0 0 95px;
+  background: #ffffff;
+  z-index: 7;
+  border-radius: 30px;
+}
+.your-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 155px;
+  top: 69px;
+  left: 43px;
+  color: #d4d0d0;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.rectangle-5 {
+  position: relative;
+  width: 1049px;
+  height: 292px;
+  margin: 176px 0 0 1186px;
+  cursor: pointer;
+  background: #5bd5e5;
+  border: none;
+  z-index: 8;
+  border-radius: 30px;
+}
+.submit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 155px;
+  top: 69px;
+  left: 292px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+.flex-row-f {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 2936px;
+  height: 292px;
+  margin: 290px 0 0 256px;
+  z-index: 11;
+}
+.rectangle-6 {
+  flex-shrink: 0;
+  position: relative;
+  width: 1299px;
+  height: 292px;
+  cursor: pointer;
+  background: #5bd5e5;
+  border: none;
+  z-index: 9;
+  border-radius: 30px;
+}
+.register {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 155px;
+  top: 69px;
+  left: 396px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.rectangle-7 {
+  flex-shrink: 0;
+  position: relative;
+  width: 1293px;
+  height: 292px;
+  cursor: pointer;
+  background: #5bd5e5;
+  border: none;
+  z-index: 11;
+  border-radius: 30px;
+}
+.forgot-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 155px;
+  top: 69px;
+  left: 126px;
+  color: #000000;
+  font-family: Inter, var(--default-font-family);
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 154.909px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 12;
+}
